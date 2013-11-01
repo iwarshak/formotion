@@ -3,6 +3,8 @@ motion_require "../base"
 module Formotion
   class Section < Formotion::Base
     PROPERTIES = [
+      # an identifier that can be used by your app
+      :id,
       # Displayed in the section header row
       :title,
       # Displayed below the entire section; good for giving

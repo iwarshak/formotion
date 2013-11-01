@@ -3,6 +3,8 @@ motion_require "../base"
 module Formotion
   class Row < Formotion::Base
     PROPERTIES = [
+      # an identifier that can be used by your app
+      :id,
       # @form.render will contain row's value as the value for this key.
       :key,
       # the user's (or configured) value for this row.
